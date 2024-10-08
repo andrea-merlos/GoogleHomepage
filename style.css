@@ -1,0 +1,162 @@
+*
+{
+  margin: 0;
+  font-family: arial;
+}
+body {
+display: flex;
+flex-direction: column;
+height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+  line-height: 24px;
+}
+.header a {
+  margin-right: 20px;
+  color: #1f1f1f;
+  line-height: 24px;
+  text-decoration: inherit;
+  font-size: 14px;
+  font-family: arial;
+}
+.header a:hover {
+  text-decoration: underline;
+}
+.headerright {
+  display: flex;
+  align-items: center;
+  min-width: 13vw;
+  justify-content: space-between;
+}
+.headericons {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+.headericons img {
+  position: relative;
+  width: 24px;
+}
+.headericons img:hover
+{
+cursor: pointer;
+}
+.imagep{
+  border-radius: 46%;
+}
+.main {
+  flex: 1;
+  display: flex;
+  margin-top: 12%;
+  flex-direction: column;
+}
+.main img {
+  object-fit: contain;
+  height: 100px;
+}
+.searchBar {
+display: flex;
+align-items: center;
+border: 1px solid lightgray;
+height: 30px;
+padding: 10px 20px;
+border-radius: 999px;
+width: 75vh;
+margin: 0 auto;
+margin-top: 40px;
+max-width: 560px;
+}
+.search input{
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+}
+.search .icons {
+  height: 17px;
+}
+.search .icons3 {
+padding: 1vh;
+height: 23px;
+}
+
+.bottombuttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottombuttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #f8f8f8;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  color: #3c4043
+}
+.bottomtext {
+  font-size: small;
+  text-align-last: center;
+  color: #1a0dab;
+  margin-top: 25px;
+  text-decoration: none;
+}
+.bottomtext a {
+  text-decoration: none;
+
+}
+.bottomtext a:hover
+{
+  text-decoration: underline;
+}
+.footer
+{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  background-color: #f2f2f2;
+}
+.footercenter a
+{
+  color: #1f1f1f;
+  text-decoration: none;
+  min-height: 100vh;
+}
+.footer img
+{
+  height: 14px;
+  margin-top: 1%;
+}
+.footertext
+{
+  vertical-align: top;
+  white-space: nowrap;
+  padding: 15px 30px;
+}
+.footerbottom
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding: 15px 30px;
+}
+.footerleft a,
+.footerright a
+{
+text-decoration: none;
+color: #1f1f1f;
+padding: 0 20px 0 0;
+}
+.footer a:hover,
+.footerright a:hover 
+{
+text-decoration: underline;
+}
